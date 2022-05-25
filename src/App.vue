@@ -34,23 +34,27 @@
     </v-app-bar>
 
     <v-main>
-      <HelloWorld />
+      <HomePage />
     </v-main>
   </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue';
+import HomePage from './pages/HomePage.vue';
 
 export default {
   name: 'App',
 
   components: {
-    HelloWorld,
+    HomePage,
   },
 
-  data: () => ({
-    //
-  }),
+  data: () => ({}),
 };
 </script>
+
+<style>
+#nprogress .bar {
+  height: 4px !important;
+}
+</style>
