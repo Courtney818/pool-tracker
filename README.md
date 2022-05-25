@@ -1,4 +1,4 @@
-# pool-tracker
+# Billiard Tracker
 
 ## Project setup
 ```
