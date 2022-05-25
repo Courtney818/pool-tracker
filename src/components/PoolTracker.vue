@@ -1,5 +1,9 @@
 <template>
-  <b-card>Hi</b-card>
+  <b-card>
+    <div class="text-center">
+      <small>No current billiard game</small>
+    </div>
+  </b-card>
 </template>
 
 <script>
