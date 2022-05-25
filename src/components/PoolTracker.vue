@@ -10,7 +10,7 @@
 import BCard from '@/components/BCard.vue';
 
 export default {
-  name: 'HelloWorld',
+  name: 'PoolTracker',
 
   components: {
     BCard,
